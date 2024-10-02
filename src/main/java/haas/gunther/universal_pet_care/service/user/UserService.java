@@ -1,4 +1,4 @@
-package haas.gunther.universal_pet_care.service;
+package haas.gunther.universal_pet_care.service.user;
 
 import org.springframework.stereotype.Service;
 

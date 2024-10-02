@@ -5,5 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import haas.gunther.universal_pet_care.model.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
+
+    boolean existsByEmail(String email);
     
 }
