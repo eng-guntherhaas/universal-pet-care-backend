@@ -14,8 +14,6 @@ import lombok.Setter;
 @PrimaryKeyJoinColumn(name = "vet_id")
 public class Veterinarian extends User{
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String specialization;
 
