@@ -1,8 +1,11 @@
 package haas.gunther.universal_pet_care.service.user;
 
+import org.springframework.stereotype.Component;
+
 import haas.gunther.universal_pet_care.model.User;
 import haas.gunther.universal_pet_care.request.RegistrationRequest;
 
+@Component
 public class UserAttributeMapper {
 
     public void setCommonAttributes(RegistrationRequest source, User target) {
